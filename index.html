@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Eat</title>
+    
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel = "stylesheet" href = "style.css">
+
+</head>
+<body>
+    <!--section header starts-->
+    <section class="header">
+        <a href = "#" class = "logo"><i class = "fas fa-utensils"></i> Just-Eat</a>
+        <nav class = "navbar">
+            <a href = "#home">home</a>
+            <a href = "#about">about</a>
+            <a href = "#food ">food</a>
+            <a href = "#gallery">gallery</a>
+            <a href = "#menu">menu</a>
+            <a href = "#order">order</a>
+            <a href = "#blogs">blogs</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+    <!--Home Section-->
+    <section class="home" id = "home">
+        <div class="swiper home-slider">
+
+            <div class = "swiper-wrapper">
+                <div class="swiper-slide" style = "background: url(images/coffee.jpg) no-repeat;">
+                    <div class="content">
+                        <span>outstanding food</span>
+                        <h3>morning moments</h3>
+                        <a href = "#" class = "btn">get started</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide" style = "background: url(images/background-2.jpg) no-repeat;">
+                    <div class="content">
+                        <span>outstanding food</span>
+                        <h3>delicious food</h3>
+                        <a href = "#" class = "btn">get started</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide" style = "background: url(images/background-3.jpg) no-repeat;">
+                    <div class="content">
+                        <span>outstanding food</span>
+                        <h3>authentic kitchen</h3>
+                        <a href = "#" class = "btn">get started</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!--about section-->
+    <section class="about" id="about">
+        <div class="image">
+            <img src="./images/about.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3 class = "title">Welcome to Just-Eat</h3>
+            <p>Our mission is to give our customers a place to celebrate life’s special moments by offering the best food, service, and ambiance.</p>
+            <a href = "#" class = "btn">read more</a>
+            <div class="icon-container">
+                <div class="icons">
+                    <img src="./images/quality (1).png" alt="">
+                    <h3>quality food</h3>
+                </div>
+
+                <div class="icons">
+                    <img src="./images/drink.png" alt="">
+                    <h3>Food and Drinks</h3>
+                </div>
+
+                <div class="icons">
+                    <img src="./images/chef (2).png" alt="">
+                    <h3>expert chefs</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Food section-->
+    <section class="food" id="food">
+        <div class="heading">
+            <span>Popular dishes</span>
+            <h3>Our delicious food</h3>
+        </div>
+
+        <div class="swiper food-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide" data-name="food-1">
+                    <img src="./images/food - 1.jpg" alt="">
+                    <h3>Salad</h3>
+                    <div class="price">200/-</div>
+                </div>
+
+                <div class="swiper-slide slide" data-name="food-2">
+                    <img src="./images/food - 2.jpg" alt="">
+                    <h3>Biriyani</h3>
+                    <div class="price">300/-</div>
+                </div>
+
+                <div class="swiper-slide slide" data-name="food-3">
+                    <img src="./images/food - 3.jpg" alt="">
+                    <h3>Prawns</h3>
+                    <div class="price">350/-</div>
+                </div>
+
+                <div class="swiper-slide slide" data-name="food-4">
+                    <img src="./images/food - 4.jpg" alt="">
+                    <h3>Paneer</h3>
+                    <div class="price">200/-</div>
+                </div>
+
+                <div class="swiper-slide slide" data-name="food-5">
+                    <img src="./images/food - 5.jpg" alt="">
+                    <h3>Pancakes</h3>
+                    <div class="price">300/-</div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src = "script.js"></script>
+</body>
+</html>
